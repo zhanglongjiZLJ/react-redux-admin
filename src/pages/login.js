@@ -38,11 +38,7 @@ class Auth extends Component{
                 <Form onSubmit={this.handleSubmit} className="login-form">
                     <FormItem>
                         {getFieldDecorator('userName', {
-<<<<<<< HEAD
                             rules: [{ required: true, message: '请输入用户名' }],
-=======
-                            rules: [{ required: true, message: '请输入用户名1' }],
->>>>>>> zlj
                         })(
                             <Input prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />} autoComplete="off" autoFocus placeholder="Username" />
                         )}
