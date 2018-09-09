@@ -46,7 +46,7 @@ class Auth extends Component{
                     <input type="hidden"/>
                     <FormItem>
                         {getFieldDecorator('password', {
-                            rules: [{ required: true, message: '请输入密码' }],
+                            rules: [{ required: true, message: '请输入密码123' }],
                         })(
                             <Input prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />} type="password" autoComplete="off" placeholder="Password" />
                         )}
