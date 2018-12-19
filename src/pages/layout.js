@@ -25,9 +25,9 @@ class Main extends Component {
         };
     }
     toggle() {
-        this.setState({
-            collapsed: !this.state.collapsed
-        });
+        this.setState(prevState => ({
+            collapsed: !prevState.collapsed
+        }));
     }
     render() {
         const match = this.props.match;

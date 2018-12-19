@@ -19,7 +19,7 @@ class Auth extends Component{
         e.preventDefault();
         this.props.form.validateFields((err, values) => {
             if (!err) {
-                // console.log('Received values of form: ', values);
+                console.log('Received values of form: ', values);
                 console.log(this.props.login)
                 this.setState({loading: true});
                 this.setState({loadText: "登录中..."});
